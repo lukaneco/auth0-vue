@@ -1,3 +1,11 @@
+
+// app.js
+
+var lock = new Auth0Lock('091s5zKqHJ6DlQJ4DVAQH0agRblqbqXN', 'lucasain.us.auth0.com');
+
+var AUTH0_CLIENT_ID = '091s5zKqHJ6DlQJ4DVAQH0agRblqbqXN';
+var AUTH0_DOMAIN = 'lucasain.us.auth0.com';
+
 // Intercept responses and check for anything
 // unauthorized. If there is an unauthorized response,
 // log the user out and redirect to the home route
